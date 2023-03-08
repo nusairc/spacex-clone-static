@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background:transparent;
+    width:100%;
+    height: fixed;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    padding: 0 30px;;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+        background:black;
+        color: #ffff;
+        margin: 0;
+        padding: 0;
+}
+.logo{
+    width:250px;
+    height: auto;
+
+}
+.logo img{
+    display:block ;
+    width: 100%;
+    height: auto;
+}
+.menu{
+    margin-right:  50px;
+}
+.menu ul{
+    display: flex;
+    text-align: center;
+    font: 14px/28px D-DIN-Bold,Arial,Verdana,sans-serif;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px;
+}
+nav ul li a{
+    text-decoration:none;
+    color: rgb(227, 236, 240);
+    font-weight: bold; 
+}
+section {
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-transform: uppercase;
+}
+.bg-content {
+        position: relative;
+        top: 50%;
+        left: 25%;
+        max-width: 560px;
+        transform: translate(-50%, -50%);
+        text-align: left;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+.bg-content h3 {
+    position: relative;
+        font-size: 15px;
+        font-weight: 50;
+        margin-bottom: 30px;
+        margin-left: 50px;
+      }
+.bg-content h1 {
+    position: relative;
+  font-size: 50px;
+  line-height: 0px;
+  font-weight: 900;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  max-width: 500px;
+}
+.bg-content button{
+    position: relative;
+    background: transparent;
+    align-items:center;
+    border:3px solid #f8fafb;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.body-bg1{
+    background-image:url(./img/homepic1.jpg);
+}
+.body-bg2{
+    background-image:url(./img/homepic2.jpg);
+}   
+.body-bg3{
+    background-image:url(./img/homepic3.jpg);
+}
+footer{
+    position: relative;
+    padding: 0px;
+    background:#0f0000;
+    height: 100px;
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration:none;
+    
+}
+footer ul li{
+    padding-top: 40px;
+    list-style: none;
+    margin-right: 30px;
+    color:#994c19;
+    text-transform: uppercase;
+    font-size: 12px;
+    
+}
+footer ul li a{
+    text-decoration:none;
+    color:#ffff;
+    /* transition: color 0.6s; */
+}
+
+
+
