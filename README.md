@@ -1,3 +1,8 @@
-# spacex-clone-static
+#  Spacex Landing Page
 
-basic static clone of spacex website using HTML and CSS , developed for academic purpose.
+This project is a static website developed using HTML and CSS, designed the landing page of the Spacex
+visit the site
+
+https://nusairc.github.io/spacex-clone-static/
+
+Simply open the index.html file in your web browser to view the landing page locally !!
